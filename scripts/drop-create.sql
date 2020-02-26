@@ -1,0 +1,29 @@
+create database bd_projetowebcrud;
+
+
+
+CREATE TABLE TB_FORNECEDOR (
+	CD_FORNECEDOR INT NOT NULL AUTO_INCREMENT,
+    NM_FORNECEDOR VARCHAR(255) NOT NULL,
+    DS_EMAIL VARCHAR(255) NULL,
+    DS_RAZAO_SOCIAL VARCHAR(255) NOT NULL,
+    DS_CNPJ VARCHAR(255) NOT NULL,
+    PRIMARY KEY(CD_FORNECEDOR)
+);
+drop table TB_FORNECEDOR;
+drop table tb_cliente;
+
+ insert into tb_fornecedor values 
+ (2,'SONY','sony@teste.com','sony SA','45.165.485.0001/46');
+select * from tb_fornecedor;
+
+CREATE TABLE TB_CLIENTE (
+	CD_CLIENTE INT NOT NULL AUTO_INCREMENT,
+    NM_CLIENTE VARCHAR(255) NOT NULL,
+    DS_EMAIL VARCHAR(255)NULL,
+    PC_DESCONTO DOUBLE NOT NULL,
+    DS_CPF VARCHAR(255) NOT NULL,
+    PRIMARY KEY(CD_CLIENTE)
+);
+select * from tb_fornecedor;
+select * from TB_CLIENTE;
