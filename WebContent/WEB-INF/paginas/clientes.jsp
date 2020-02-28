@@ -19,7 +19,7 @@
 		 <input type="submit" value="Enviar" />
 	</form>
 
-	<font color="red"><h2>${mensagem}</h2></font>
+	<h2>${mensagem}</h2>
 
 	<h4>Clientes cadastrados</h4>
 	<table border="1">

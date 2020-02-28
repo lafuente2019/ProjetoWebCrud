@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.ProjetoWebCrud.model.domain.Cliente;
-import util.ValidacaoException;
+
 
 public class ClienteDao {
 	
